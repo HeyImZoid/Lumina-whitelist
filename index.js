@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import express from 'express';
 import cors from 'cors';
+const keep_alive = require('./keep_alive.js')
 
 class DiscordClient {
 client = new Client({
