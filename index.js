@@ -103,7 +103,7 @@ const command = this.commands.get(interaction.commandName);
 }
 
 // === Start Services ===
-new DiscordClient(process.env.DISCORD_TOKEN).login();
+new DiscordClient('MTMxNTQyNTgwMzkyODA4MDQ4Ng.GqJX-I.dXDHJAhxV8lHa4QSKKfjr9hYt8a05dbMrVurek').login();
 
 // index.js
 import dotenv from 'dotenv';
