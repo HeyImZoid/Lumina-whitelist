@@ -12,7 +12,7 @@ http.createServer((req, res) => {
 });
 
 setInterval(() => {
-  https.get('YOUR RENDER SITE URL', (res) => {
+  https.get('https://lumina-whitelist.onrender.com', (res) => {
     console.log(`[SELF-PING] Status: ${res.statusCode}`);
   }).on('error', (err) => {
     console.error(`[SELF-PING] Error: ${err.message}`);
