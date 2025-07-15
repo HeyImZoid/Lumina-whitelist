@@ -26,7 +26,7 @@ const __filename1 = fileURLToPath(import.meta.url);
 const __dirname1 = path.dirname(__filename1);
 const keepalivePath = path.join(__dirname1, 'Alive');
 const keepaliveFiles = readdirSync(keepalivePath).filter(file => file.endsWith('.js'));
-const keepalive = require(keepalivePath, keepaliveFiles)
+const keepalive = require(keepalivePath, keepaliveFiles);
 
 async loadCommands() {
 const __filename = fileURLToPath(import.meta.url);
