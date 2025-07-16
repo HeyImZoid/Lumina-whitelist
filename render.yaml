@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: Lumina
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      - key: TOKEN
+        sync: false
+      - key: GUILD_ID
+        sync: false
+      - key: GITHUB_REPO
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_BRANCH
+        sync: false
+      - key: PORT
+        value: 5000
