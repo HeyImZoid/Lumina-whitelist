@@ -8,5 +8,10 @@
     "discordID": "1218972951177859072",
     "discordTag": "ms.maqu#0",
     "whitelistType": "Premium"
+  },
+  "test": {
+    "discordID": "1011284011232010340",
+    "discordTag": "shunzi_#0",
+    "whitelistType": "Premium"
   }
 }
